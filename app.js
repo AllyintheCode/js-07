@@ -21,17 +21,16 @@
 // }
 // console.log(sortArray());
 
-//* function menfiCixaran() {
-//   let a = [1, 5, -47, 9, 54, 4, 6, 9, 85, 30]
-//   for (let i of a) {
-//     if (i < 0) {
-//       console.log([i]);
-
-
-
-//     }
+// function menfiCixaran() {
+//   let a = [1, -5, 47, -9, 54, -4, 6, 9, 85, 30]
+//   let b = a.filter((eded) => {
+//     return eded < 0
+//   })
+//   if (b.length > 0) {
+//     return b
+//   } else {
+//     return "uygun menfi eded tapilmadi "
 //   }
-
 // }
 
 // console.log(menfiCixaran());
@@ -57,7 +56,7 @@
 
 // }
 
-// *function alariTapan() {
+// function alariTapan() {
 //   let namesArray = [
 //     "Alice",
 //     "Bob",
@@ -70,13 +69,16 @@
 //     "George",
 //     "Alex",
 //   ];
-//   let frist = namesArray.find(myFunction)
-//   for (let i of namesArray) { }
-//   function myFunction(value, index, array) {
-//     return i[0] === "A"
+//   let first = namesArray.filter((user) => {
+//     return user[0] === "A"
+//   })
+//   if (first.length > 0) {
+//     return first
+//   } else {
+//     return "UYGUN AD TAPILMADI"
 //   }
-//   console.log(frist);
 
 // }
+
 
 // console.log(alariTapan());
